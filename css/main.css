@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  background-color: #dbd6cf;
+  border: 3px solid #595652;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
