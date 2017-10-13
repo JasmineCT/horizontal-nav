@@ -9,3 +9,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  background-color: #79756f;
+  margin: 0;
+}
+
+h1 {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Bevan', cursive;
+}
