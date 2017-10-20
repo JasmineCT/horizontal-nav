@@ -1,47 +1,59 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
   background-color: #dbd6cf;
-  border: 3px solid #595652;
-  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
-  background-color: #79756f;
   margin: 0;
+}
+
+header {
+  background-color: #79756f;
+  color: #fff;
+  text-align: center;
+  border-top: .2em solid #595652;
+  border-bottom: .2em solid #595652;
 }
 
 h1 {
-  display: inline-block;
   color: #fff;
-  font-family: 'Bevan', cursive;
-}
-nav ul {
-  margin: 0;
+  font-family: Bevan, serif;
   padding: 0;
-
-  list-style-type: none;
+  margin: 0;
 }
 
-nav li {
-  display: inline;
-  padding:  .6em, .5em .75em;
+ul {
+
   text-align: center;
-}
-
-nav a {
-  display: inline-block;
-  padding:  .6em, .5em .75em;
-  margin: .3em;
-  background-color: #713837;
+  padding: 0;
+  padding-bottom: .5em;
+  margin: 0;
   color: #fff;
+  list-style-type: none;
   text-decoration: none;
-  text-align: center;
-
 }
+
+li {
+  display: inline-block;
+}
+
+a {
+  font-family: PT-Serif, sans-serif;
+  padding: .75em;
+  margin: .3em;
+  border: 2px;
+  border-radius: 3px;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #713837;
+}
+
 a:hover {
-  background-color: #f33;
+  color: #f33;
 }
